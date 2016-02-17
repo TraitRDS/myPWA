@@ -1,6 +1,6 @@
-package com.ricky.traitphotos.app;
+package com.trait.traitphotos.app;
 
-import com.ricky.traitphotos.dialog.TraitPicasaDialog;
+import com.trait.traitphotos.dialog.TraitPicasaDialog;
 
 /**
  * Created by yli on 1/28/2016.

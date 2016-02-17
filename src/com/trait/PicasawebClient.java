@@ -14,7 +14,7 @@
  */
 
 
-package com.ricky;
+package com.trait;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.gdata.client.photos.PicasawebService;

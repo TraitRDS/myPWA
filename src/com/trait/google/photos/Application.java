@@ -1,4 +1,4 @@
-package com.ricky.google.photos;
+package com.trait.google.photos;
 
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
@@ -10,9 +10,9 @@ import com.google.gdata.data.photos.PhotoEntry;
 import com.google.gdata.util.ContentType;
 import com.google.gdata.util.ServiceException;
 import com.google.gdata.util.common.xml.XmlWriter;
-import com.ricky.google.auth.GoogleAuthorization;
-import com.ricky.google.util.PictureFileFilter;
-import com.ricky.google.util.VideoFileFilter;
+import com.trait.google.auth.GoogleAuthorization;
+import com.trait.google.util.PictureFileFilter;
+import com.trait.google.util.VideoFileFilter;
 
 import java.io.File;
 import java.io.IOException;

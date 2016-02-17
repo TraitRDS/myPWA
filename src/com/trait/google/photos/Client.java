@@ -1,13 +1,10 @@
-package com.ricky.google.photos;
+package com.trait.google.photos;
 
 import com.google.api.client.auth.oauth2.Credential;
-import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
-import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.gdata.client.photos.PicasawebService;
 import com.google.gdata.data.Link;
 import com.google.gdata.data.photos.*;
 import com.google.gdata.util.ServiceException;
-import com.ricky.google.auth.GoogleAuthorization;
 
 import java.io.IOException;
 import java.net.URL;

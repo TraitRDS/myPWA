@@ -1,13 +1,12 @@
-package com.ricky.traitphotos.app;
+package com.trait.traitphotos.app;
 
 import com.google.gdata.data.photos.AlbumEntry;
 import com.google.gdata.util.ServiceException;
-import com.ricky.google.photos.Application;
-import com.ricky.traitphotos.util.SimpleCommandLineParser;
+import com.trait.google.photos.Application;
+import com.trait.traitphotos.util.SimpleCommandLineParser;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.SyncFailedException;
 import java.util.List;
 
 /**

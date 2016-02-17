@@ -14,7 +14,7 @@
  */
 
 
-package com.ricky.traitphotos.util;
+package com.trait.traitphotos.util;
 
 import java.util.HashMap;
 import java.util.Iterator;

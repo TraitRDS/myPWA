@@ -1,30 +1,17 @@
-package com.ricky.traitphotos.dialog;
+package com.trait.traitphotos.dialog;
 
-import com.google.gdata.data.ExtensionProfile;
-import com.google.gdata.data.OtherContent;
-import com.google.gdata.data.PlainTextConstruct;
 import com.google.gdata.data.photos.AlbumEntry;
-import com.google.gdata.data.photos.PhotoEntry;
-import com.google.gdata.util.ContentType;
 import com.google.gdata.util.ServiceException;
-import com.google.gdata.util.common.xml.XmlWriter;
-import com.ricky.google.photos.Application;
-import com.ricky.google.photos.Client;
+import com.trait.google.photos.Application;
 
 import javax.swing.*;
-import javax.swing.filechooser.FileFilter;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.DefaultTreeModel;
-import javax.swing.tree.TreeModel;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
-import java.nio.file.Files;
-import java.nio.file.attribute.BasicFileAttributes;
-import java.util.*;
 
 public class TraitPicasaDialog extends JDialog {
     private Application application;

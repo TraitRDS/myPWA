@@ -1,4 +1,4 @@
-package com.ricky.google.util;
+package com.trait.google.util;
 
 import java.io.File;
 import java.io.FileFilter;
